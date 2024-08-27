@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* Body Styling */
+body {
+    color: white;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the title */
+    padding: 20px;
+    position: relative; /* Allows for absolute positioning of the logo */
+}
+
+/* Logo Styling */
+.logo {
+    position: absolute;
+    left: 20px; /* Position the logo on the left */
+}
+
+.logo img {
+    height: 50px; /* Adjust the height as needed */
+}
+
+/* Title Styling */
+.title h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.passage{
+    flex: 5;
+}
+
+.date{
+    flex: 3;
+    align-items: center;
+}
